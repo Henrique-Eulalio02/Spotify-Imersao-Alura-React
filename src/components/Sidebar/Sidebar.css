@@ -1,0 +1,136 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 12px;
+  width: 300px;
+}
+
+.sidebar__navigation {
+  background-color:var(--bg-container);
+  border-radius: 8px;
+  padding: 16px 0 0 16px;
+  border: 1px solid;
+  border-color: var(--border-color-container);
+}
+
+.sidebar__navigation ul li a .fa {
+  margin-right: 10px;
+}
+
+.sidebar__navigation .logo {
+  display: flex;
+  border-radius: 8px;
+  padding: 8px 0 0 0px;
+}
+
+.logo img {
+  width: 80px;
+}
+
+.sidebar nav ul {
+  margin-top: 20px;
+  padding: 0 20px 10px 0px;
+}
+
+.sidebar nav ul li {
+  padding: 10px 0;
+}
+
+.sidebar nav ul li a {
+  color: var(--primary-font-color);
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.sidebar__library {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color:var(--bg-container);
+  border-radius: 8px;
+  padding: 16px 16px 16px 16px;
+  border: 1px solid;
+  border-color: var(--border-color-container);
+}
+
+.sidebar__library .container__library {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.sidebar__library .container__library .fa {
+  margin-right: 10px;
+}
+
+.sidebar__library ul {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.sidebar__library ul li {
+  padding: 10px 0;
+}
+
+.sidebar__library ul li a {
+  color: var(--primary-font-color);
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.sidebar__library .create__playlist {
+  margin-top: 12px;
+  background-color:rgba(46, 46, 46, 0.1);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.sidebar__library .create__playlist h1 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.sidebar__library .create__playlist span {
+  color: #fff;
+  font-size: 14px;
+}
+
+.sidebar__library .create__playlist button {
+  margin-top: 24px;
+  color: #000;
+  font-weight: 600;
+  background-color: #fff;
+  border-radius: 20px;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.sidebar__library .cookies {
+  margin: 30px 0 30px 12px;
+  color: var(--primary-font-color);
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.sidebar__library .language .fa {
+  margin-right: 10px;
+}
+
+.sidebar__library .language button{
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: var(--bg-container);
+  border-radius: 20px;
+  border: 1px solid #fff;
+  padding: 10px;
+  cursor: pointer;
+}
